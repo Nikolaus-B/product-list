@@ -1,13 +1,11 @@
 import "./App.css";
-import products from "./products.json";
+import { Layout } from "./components/Layout/Layout";
 import "modern-normalize";
-
-console.log(products);
 
 function App() {
   return (
     <>
-      <div></div>
+      <Layout />
     </>
   );
 }
